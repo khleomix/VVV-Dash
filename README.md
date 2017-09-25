@@ -1,8 +1,4 @@
-This is a Varying Vagrant Vagrants Dashboard for the excellent [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV)
-
-Its purpose is to dynamically load host links to all sites created in the VVV www path along with a long list of additional tools. See Feature list below.
-
-[![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/topdown/VVV-Dashboard?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Forked from @topdown's [VVV Dashboard](https://github.com/topdown/VVV-Dashboard) - fixed for VVV2
 
 Setup
 -
@@ -10,7 +6,7 @@ Clone this repo to your VVV/www/default/ directory and then copy dashboard-custo
 
 ```sh
 cd www/default
-git clone https://github.com/topdown/VVV-Dashboard.git dashboard
+git clone https://github.com/khleomix/VVV-Dash.git dashboard
 cp dashboard/dashboard-custom.php .
 ```
 
@@ -24,10 +20,6 @@ cd www/default/dashboard
 git pull
 cp dashboard-custom.php ..
 ```
-
----
-### Help Grow This Feature List
-<span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KEUN2SQ2VRW7A" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 
 ---
 
@@ -90,15 +82,6 @@ cp dashboard-custom.php ..
 * Custom setting for scan paths
 * Custom setting for wp-content paths
 * Migrations for databases. You can now migrate to a new domain.
-
----
-
-### Note: Recent Changes 
-You no longer need to copy the style.css anywhere.
-
-There is now a cache system. If you don't see cache files on the first dashboard load, make sure dashboard/cache/ is writable (it should be).
-
-There are bound keys for the search feature: the enter key and down arrow key search down the list, and the up arrow searches up.
 
 ---
 

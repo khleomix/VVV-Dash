@@ -23,7 +23,7 @@ cp dashboard-custom.php ..
 
 Note
 -
-If sites are not created, check if you have the `vvv-hosts` file inside the `provision` directory. If none, create a `vvv-hosts` with the following content:
+If sites are not created, check if you have the `vvv-hosts` file inside the `provision` directory. If none, create a `vvv-hosts` with the following content (https://github.com/topdown/VVV-Dashboard/issues/52#issuecomment-322093013):
 
 `yoursite.dev`
 
